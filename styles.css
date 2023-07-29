@@ -2,10 +2,42 @@ body {
     font-family: Arial, Helvetica, sans-serif
 }
 
-.title {
-    font-weight: lighter;
+.main{
+    display: flex;
+    margin: 20px 40px;
+}
+
+.col1{
+    margin-right: 20px;
+}
+
+.breadcrumb{
+    color: #565959;
+    text-align: left;
 }
 
 .main-img {
     box-shadow: 0px 2px 5px lightgray;
+    width: 300px;
 }
+
+.col2{
+    padding: 0 80px 0 50px;
+}
+
+.title {
+    font-weight: lighter;
+}
+
+.author{
+    font-size: 15px;
+}
+
+.author-link{
+    color: #007185;
+}
+
+.ratings{
+    width: 125px;
+}
+
